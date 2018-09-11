@@ -44,3 +44,7 @@ exports.init = function (callback) {
    
     })
 };
+
+exports.listerSessions = function() {
+    return talks;
+}
